@@ -28,10 +28,8 @@ var LinkedList = function() {
     var result = list.head.next;
     var value = list.head.value;
     delete list.head
-    console.log(list)
     list.head  =  result;
     return value;
-    console.log(list)
   };
 
   list.contains = function(target) {
